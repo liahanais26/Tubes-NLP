@@ -1,0 +1,21 @@
+ venv/
+__pycache__/
+*.pyc
+*.pkl
+!models/sentiment_model.pkl
+
+# dataset besar
+data/*
+DL/Data/*
+
+# IZINKAN dataset kecil
+!data/clean_imdb.csv
+
+# model hasil training
+models/
+*.pt
+*.bin
+*.pkl
+
+# logs
+logs.log
